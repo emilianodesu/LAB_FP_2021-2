@@ -1,5 +1,5 @@
 /*
-*  2. Diseñar un programa en el que dados tres números deducir cual es el central.
+*  2. Diseñar un programa en el que dados tres números diferentes deducir cual es el central.
 */
 #include <stdio.h>
 int main(){
