@@ -4,13 +4,12 @@
 
 #include<stdio.h>
 #include<time.h>
-int signo; //Para generar numeros negativos (se multiplicara por los valores aleatorios generados en el vector) 
-int VEC[60]; //Arreglo unidimensional de 60 entradas
-int pos=0,neg=0,cero=0; //Contadores para cada caso de los elementos
-time_t t; 
 
 int main(){
-
+    int signo; //Para generar numeros negativos (se multiplicara por los valores aleatorios generados en el vector) 
+    int VEC[60]; //Arreglo unidimensional de 60 entradas
+    int pos=0,neg=0,cero=0; //Contadores para cada caso de los elementos
+    time_t t; 
     srand((unsigned)time(&t)); //Semilla para generar numeros aleatorios
 
     for (int i = 0; i < 60; i++){

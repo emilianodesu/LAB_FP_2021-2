@@ -14,12 +14,10 @@
 #include<stdio.h>
 #include<time.h>
 
-time_t t;
-int N,n;
-float suma;
-
 int main(){
-
+    time_t t;
+    int N,n;
+    float suma = 0;
     srand((unsigned)time(&t)); //Semilla para generar numeros aleatorios.
 
     do{
@@ -63,7 +61,7 @@ int main(){
     }
 
     for (int i = 0; i < 100; i++){ 
-        suma+=*(NUM3+i); //8. Haga el sumatorio de los elementos del arreglo de punto flotante c de 100 elementos (utiliza apuntadores).
+        suma += *(NUM3+i); //8. Haga el sumatorio de los elementos del arreglo de punto flotante c de 100 elementos (utiliza apuntadores).
     }
 
     printf("\nLa suma de elementos de NUM3 = %f",suma); 
